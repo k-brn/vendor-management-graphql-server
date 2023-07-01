@@ -73,7 +73,7 @@ const typeDefs = gql`
     id: ID!
     name: String!
     email: String!
-    phone: Int!
+    phone: String!
     address: Address!
     vendorType: VendorType!
   }
@@ -81,6 +81,25 @@ const typeDefs = gql`
   type Query {
     vendors: [Vendor!]!
     vendor(id: ID!): Vendor!
+  }
+
+  type Mutation {
+    addVendor(input: VendorInput!): Vendor!
+  }
+
+  input VendorInput {
+    name: String!
+    email: String!
+    phone: String!
+    address: AddressInput!
+    vendorType: VendorType = OTHER
+  }
+
+  input AddressInput {
+    street: String!
+    city: String!
+    state: State = CALIFORNIA
+    country: String!
   }
 `;
 

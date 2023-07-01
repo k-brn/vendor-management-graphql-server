@@ -34,7 +34,7 @@ const VendorList = [
     address: {
       street: "789 Oak Street",
       city: "Villageville",
-      state: "NEW YORK",
+      state: "NEW_YORK",
       country: "Countryland",
     },
     vendorType: "SUPPLIER",

@@ -12,6 +12,16 @@ const resolvers = {
       return vendor;
     },
   },
+
+  Mutation: {
+    addVendor: (parent, args) => {
+      const vendor = args.input;
+      const lastId = VendorList[VendorList.length - 1].id;
+      vendor.id = lastId + 1;
+      VendorList.push(vendor);
+      return vendor;
+    },
+  },
 };
 
 module.exports = { resolvers };
