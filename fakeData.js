@@ -11,6 +11,7 @@ const VendorList = [
       state: "CALIFORNIA",
       country: "Countryland",
     },
+    vendorType: "SUPPLIER",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ const VendorList = [
       state: "TEXAS",
       country: "Countryland",
     },
+    vendorType: "CONTRACTOR",
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ const VendorList = [
       state: "NEW YORK",
       country: "Countryland",
     },
+    vendorType: "SUPPLIER",
   },
   {
     id: 4,
@@ -47,6 +50,7 @@ const VendorList = [
       state: "FLORIDA",
       country: "Countryland",
     },
+    vendorType: "DISTRIBUTOR",
   },
   {
     id: 5,
@@ -59,6 +63,7 @@ const VendorList = [
       state: "ALASKA",
       country: "Countryland",
     },
+    vendorType: "SERVICE_PROVIDER",
   },
   {
     id: 6,
@@ -71,6 +76,7 @@ const VendorList = [
       state: "ARIZONA",
       country: "Countryland",
     },
+    vendorType: "OTHER",
   },
   {
     id: 7,
@@ -83,6 +89,7 @@ const VendorList = [
       state: "ILLINOIS",
       country: "Countryland",
     },
+    vendorType: "DISTRIBUTOR",
   },
   {
     id: 8,
@@ -95,6 +102,7 @@ const VendorList = [
       state: "COLORADO",
       country: "Countryland",
     },
+    vendorType: "SUPPLIER",
   },
   {
     id: 9,
@@ -107,6 +115,7 @@ const VendorList = [
       state: "MICHIGAN",
       country: "Countryland",
     },
+    vendorType: "SERVICE_PROVIDER",
   },
   {
     id: 10,
@@ -119,6 +128,7 @@ const VendorList = [
       state: "OREGON",
       country: "Countryland",
     },
+    vendorType: "OTHER",
   },
 ];
 

@@ -54,6 +54,14 @@ const typeDefs = gql`
     WYOMING
   }
 
+  enum VendorType {
+    SUPPLIER
+    CONTRACTOR
+    SERVICE_PROVIDER
+    DISTRIBUTOR
+    OTHER
+  }
+
   type Address {
     street: String!
     city: String!
@@ -67,10 +75,12 @@ const typeDefs = gql`
     email: String!
     phone: Int!
     address: Address!
+    vendorType: VendorType!
   }
 
   type Query {
     vendors: [Vendor!]!
+    vendor(id: ID!): Vendor!
   }
 `;
 
