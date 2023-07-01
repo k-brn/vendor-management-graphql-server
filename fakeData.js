@@ -8,7 +8,7 @@ const VendorList = [
     address: {
       street: "123 Main Street",
       city: "Cityville",
-      state: "Stateville",
+      state: "CALIFORNIA",
       country: "Countryland",
     },
   },
@@ -20,7 +20,7 @@ const VendorList = [
     address: {
       street: "456 Elm Street",
       city: "Townville",
-      state: "Provinceland",
+      state: "TEXAS",
       country: "Countryland",
     },
   },
@@ -32,7 +32,7 @@ const VendorList = [
     address: {
       street: "789 Oak Street",
       city: "Villageville",
-      state: "Territoryland",
+      state: "NEW YORK",
       country: "Countryland",
     },
   },
@@ -44,7 +44,7 @@ const VendorList = [
     address: {
       street: "987 Maple Avenue",
       city: "Hamletville",
-      state: "Regionland",
+      state: "FLORIDA",
       country: "Countryland",
     },
   },
@@ -56,7 +56,7 @@ const VendorList = [
     address: {
       street: "654 Pine Road",
       city: "Metropolis",
-      state: "Districtland",
+      state: "ALASKA",
       country: "Countryland",
     },
   },
@@ -68,7 +68,7 @@ const VendorList = [
     address: {
       street: "321 Cedar Lane",
       city: "Villageland",
-      state: "Territoryland",
+      state: "ARIZONA",
       country: "Countryland",
     },
   },
@@ -80,7 +80,7 @@ const VendorList = [
     address: {
       street: "543 Oak Avenue",
       city: "Citytown",
-      state: "Regionland",
+      state: "ILLINOIS",
       country: "Countryland",
     },
   },
@@ -92,7 +92,7 @@ const VendorList = [
     address: {
       street: "876 Elm Lane",
       city: "Hamletville",
-      state: "Districtland",
+      state: "COLORADO",
       country: "Countryland",
     },
   },
@@ -104,7 +104,7 @@ const VendorList = [
     address: {
       street: "789 Maple Avenue",
       city: "Citytown",
-      state: "Provinceland",
+      state: "MICHIGAN",
       country: "Countryland",
     },
   },
@@ -116,7 +116,7 @@ const VendorList = [
     address: {
       street: "234 Pine Road",
       city: "Villageland",
-      state: "Districtland",
+      state: "OREGON",
       country: "Countryland",
     },
   },
