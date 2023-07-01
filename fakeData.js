@@ -1,5 +1,5 @@
 // Fake data
-export const VendorList = [
+const VendorList = [
   {
     id: 1,
     name: "ABC Supplies",
@@ -121,3 +121,5 @@ export const VendorList = [
     },
   },
 ];
+
+module.exports = { VendorList };
