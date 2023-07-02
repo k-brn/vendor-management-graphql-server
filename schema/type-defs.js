@@ -86,6 +86,7 @@ const typeDefs = gql`
   type Mutation {
     addVendor(input: VendorInput!): Vendor!
     updateVendorContact(input: UpdateVendorContactInput!): Vendor!
+    deleteVendor(id: ID!): Vendor
   }
 
   input UpdateVendorContactInput {

@@ -37,6 +37,12 @@ const resolvers = {
 
       return VendorList[vendorIndex];
     },
+
+    deleteVendor: (parent, args) => {
+      const id = args.id;
+      _.remove(VendorList, (vendor) => vendor.id === Number(id));
+      return null;
+    },
   },
 };
 
