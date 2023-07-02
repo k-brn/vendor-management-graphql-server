@@ -21,6 +21,22 @@ const resolvers = {
       VendorList.push(vendor);
       return vendor;
     },
+
+    updateVendorContact: (parent, args) => {
+      const { id, newEmail, newPhone } = args.input;
+
+      const vendorIndex = VendorList.findIndex(
+        (vendor) => vendor.id === Number(id)
+      );
+      if (vendorIndex === -1) {
+        throw new Error(`Vendor with ID ${id} not found.`);
+      }
+
+      VendorList[vendorIndex].email = newEmail;
+      VendorList[vendorIndex].phone = newPhone;
+
+      return VendorList[vendorIndex];
+    },
   },
 };
 
