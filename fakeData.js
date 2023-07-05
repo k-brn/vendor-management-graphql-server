@@ -12,6 +12,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "SUPPLIER",
+    totalOrders: 2, // New field value
   },
   {
     id: 2,
@@ -25,6 +26,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "CONTRACTOR",
+    totalOrders: 8,
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "SUPPLIER",
+    totalOrders: 55,
   },
   {
     id: 4,
@@ -51,6 +54,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "DISTRIBUTOR",
+    totalOrders: 24,
   },
   {
     id: 5,
@@ -64,6 +68,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "SERVICE_PROVIDER",
+    totalOrders: 290,
   },
   {
     id: 6,
@@ -77,6 +82,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "OTHER",
+    totalOrders: 25940,
   },
   {
     id: 7,
@@ -90,6 +96,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "DISTRIBUTOR",
+    totalOrders: 345,
   },
   {
     id: 8,
@@ -103,6 +110,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "SUPPLIER",
+    totalOrders: 2655,
   },
   {
     id: 9,
@@ -116,6 +124,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "SERVICE_PROVIDER",
+    totalOrders: 0,
   },
   {
     id: 10,
@@ -129,6 +138,7 @@ const VendorList = [
       country: "Countryland",
     },
     vendorType: "OTHER",
+    totalOrders: 4,
   },
 ];
 

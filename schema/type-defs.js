@@ -76,6 +76,7 @@ const typeDefs = gql`
     phone: String!
     address: Address!
     vendorType: VendorType!
+    totalOrders: Int! # New field definition
   }
 
   type Query {
